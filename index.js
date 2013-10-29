@@ -1,7 +1,12 @@
 var props = require('./lib/props');
 
 /**
- * Expose 'with'
+ * Extend scope chain of statement
+ * and return function.
+ *
+ * @param {String} statement
+ * @return {Function} 
+ * @api public
  */
 
 module.exports = function(statement){
