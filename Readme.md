@@ -1,17 +1,25 @@
 
-# with
+# scope
 
   Extends the scope chain for a statement
 
 ## Installation
 
-  Install with [component(1)](http://component.io):
+  Install scope [component](http://component.io):
 
-    $ component install bredele/with
+    $ component install bredele/scope
 
-## API
+## Usage
 
 
+```js
+  var scope = require('scope');
+  var fn = scope("name + ' wietrich' ");
+
+  fn({
+    name: 'olivier'
+  }); //olivier wietrich 
+```
 
 ## License
 

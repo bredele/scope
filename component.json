@@ -1,6 +1,6 @@
 {
-  "name": "with",
-  "repo": "bredele/with",
+  "name": "scope",
+  "repo": "bredele/scope",
   "description": "Extends the scope chain for a statement",
   "version": "0.0.1",
   "keywords": [],
